@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 import { useState,useEffect } from 'react';
 import axios from 'axios';
+import Header from './Header';
 const Details = () => {
   const {id }=useParams();
   console.log(id);
@@ -24,7 +25,10 @@ const Details = () => {
 
 
     return (
+        <>
+        <Header/>
         <div className='container'>
+        
             <div className='img'>
                 <img className='h-full w-full' src={data?.image} />
             </div>
@@ -51,6 +55,7 @@ const Details = () => {
 
             </div>
         </div>
+        </>
     )
 }
 

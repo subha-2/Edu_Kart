@@ -15,7 +15,7 @@ const Cart = () => {
 
     return (
         <div className='w-[90%] m-auto '>
-            <div className=''></div>
+            
 
 
         </div>

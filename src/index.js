@@ -8,7 +8,7 @@ import Cart from './Components/Cart';
 
 const AppLayout = () => {
   return (
-   
+      
       <Home />
    
   )
